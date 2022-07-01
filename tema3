@@ -1,0 +1,16 @@
+let suma=function(a,b,c){
+    return a+b+c;
+}
+
+let resultado= suma(3,4,5);
+console.log(resultado);
+
+class Coche{
+    static numeroDePuertas=3;
+    constructor(numeroDePuertas){
+        this._numeroDePuertas=++Coche.numeroDePuertas;
+    }
+};
+
+let miCoche=new Coche(3);
+console.log(miCoche)
